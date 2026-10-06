@@ -1,0 +1,10 @@
+# 编译输出
+build/
+
+# CubeMX 可选文件
+.mxproject
+
+# 编辑器/系统临时文件
+.vscode/
+.DS_Store
+Thumbs.db
