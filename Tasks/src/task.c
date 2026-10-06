@@ -1,4 +1,12 @@
 /*
+ * @Author: ChuRuichao 336744409+ChuRuichao@users.noreply.github.com
+ * @Date: 2026-10-06 12:04:25
+ * @LastEditors: ChuRuichao 336744409+ChuRuichao@users.noreply.github.com
+ * @LastEditTime: 2026-10-06 15:48:07
+ * @FilePath: \src\task.c
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+/*
  * 电控第一次作业 —— 业务代码
  *
  * 三道题都在这一个文件里：

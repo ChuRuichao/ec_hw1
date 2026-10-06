@@ -1,0 +1,10 @@
+/*********************************************************************
+*  电控第一次作业 - 题目二（定时器题）：tick 每秒约 +1000
+**********************************************************************/
+void OnProjectLoad (void) {
+  Project.SetDevice ("STM32F103C8");
+  Project.SetHostIF ("USB", "");
+  Project.SetTargetIF ("SWD");
+  Project.SetTIFSpeed ("1 MHz");
+  File.Open ("D:/opencode-work/hw1/prebuilt/ec_hw1_timer.elf");
+}

@@ -1,0 +1,11 @@
+﻿/*********************************************************************
+*  电控第一次作业 - Ozone 调试工程
+*  用法：Ozone -> File -> Open 本文件；若弹 "License Missing" 按回车继续
+**********************************************************************/
+void OnProjectLoad (void) {
+  Project.SetDevice ("STM32F103C8");
+  Project.SetHostIF ("USB", "");
+  Project.SetTargetIF ("SWD");
+  Project.SetTIFSpeed ("1 MHz");
+  File.Open ("$(ProjectDir)/build/ec_hw1.elf");
+}

@@ -8,3 +8,7 @@ build/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Ozone 个人布局文件
+*.jdebug.user
+
